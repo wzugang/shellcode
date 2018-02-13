@@ -34,13 +34,10 @@ END:
 int main(int __argc, char* __argv[])
 {
     int i,len;
-    int cr0 = 5;
     unsigned char buffer[1024]={0};
-    void* fun;
     FILE* fp;
-    HINSTANCE LibHandle;
 
-    len = dumpCode(buffer);
+    len = dumphex(buffer);
     printf("%d\n",len);
     
     fp = fopen("hex.txt","wb+");
