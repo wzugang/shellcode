@@ -1,0 +1,2 @@
+alias
+list = log --color --graph --pretty=format:'%Cred%h%Creset %ad | %Cgreen%s%C(yellow)%d%Creset%C(bold blue)[%an]%Creset(%cr)' --abbrev-commit --date=short
